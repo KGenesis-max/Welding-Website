@@ -1,0 +1,107 @@
+body {margin: 0;
+}
+.background-img {
+height: 100vh;
+width: 100%;
+object-fit: cover;
+filter:brightness(0.9) contrast(1.2) saturate(1.6);
+}
+.nav-container {
+
+position: absolute;
+bottom: 55px;
+left: 50%;
+transform: translateX(-50%);
+font-size: 20px;
+}
+.menu-link {
+color: white;
+text-decoration: none;
+margin-left:10px;
+
+}
+.menu-link:hover {
+text-decoration:underline;
+}    
+.logo {
+position: absolute;
+top: -30px;
+left: 870px;
+width: 1000px; /* z.B. feste Breite */
+}
+.logo img {
+width: 100%; /* 50% von 300px = 150px */
+height: auto;
+}
+.headline {
+position: absolute;
+left: 130px;
+top: 500px;
+color: whitesmoke;
+font-size: 50px;
+width: 900px;
+text-shadow: 5px 8px rgba(0,0,0,0.8);
+}
+
+.red{
+color: rgb(216, 0, 11)
+}
+
+footer {
+    background:; 
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  form {
+    position: absolute;
+  left: 5%;
+  top:60%;
+  transform: translateY(-30%);
+  max-width: 800px;
+  margin: 0; /* da absolute Positionierung */
+  padding: 30px;
+  background: #c0c2c5;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display:;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
